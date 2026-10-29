@@ -4,6 +4,6 @@ Exploratory analysis of flow cytometry (FACS) data from single-cell suspensions.
 
 ### Data preprocessing and compensation
 
-FCS files were initially inspected and preprocessed in FlowJo. Events were exported following the exclusion of cells with low viability-staining signal, according to the experimental gating strategy. Compensation settings were optimized in independent experiments, and the corresponding compensation matrix was embedded in the exported FCS files.
+FCS files were initially inspected and preprocessed in FlowJo. Events were exported following a gating strategy on live cells using the viable cell staining, according to the experimental gating strategy. Compensation settings were optimized in independent experiments, and the corresponding compensation matrix was embedded in the exported FCS files.
 
 The R workflow imports the FCS files and applies compensation and downstream transformations before FlowSOM-based clustering and exploratory analysis.
