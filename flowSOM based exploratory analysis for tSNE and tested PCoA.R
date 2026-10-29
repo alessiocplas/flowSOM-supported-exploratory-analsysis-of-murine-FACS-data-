@@ -34,20 +34,7 @@
 #   identical to the original FCS filenames. Verify the mapping before
 #   interpreting any group comparisons.
 #
-# IMPORTANT SCIENTIFIC CONSIDERATIONS
-#   - Verify the compensation matrix and marker-channel identities.
-#   - Confirm that the selected channels are fluorescence markers, not
-#     scatter parameters, time, or file identifiers.
-#   - Biological samples, not individual cells, are the units of inference
-#     for sample-level group comparisons.
-#   - PCoA and t-SNE are visualisation methods, not tests of significance.
-#   - PERMANOVA can be affected by differences in group dispersion.
-#   - Statistical models must reflect repeated measures, batches, and other
-#     relevant experimental-design constraints.
-#
-# REPRODUCIBILITY
-#   The random seed, FlowSOM parameters, and R session information are saved
-#   or documented to facilitate reproducibility.
+
 #
 # =============================================================================
 
@@ -117,7 +104,6 @@ library(viridis)
 # =============================================================================
 
 # Use paths relative to the GitHub repository root.
-# Do not use personal computer paths or setwd() in the published script.
 
 data_dir <- file.path("data", "fcs")
 metadata_file <- file.path("metadata", "sample_metadata.csv")
