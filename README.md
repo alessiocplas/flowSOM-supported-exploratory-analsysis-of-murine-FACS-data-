@@ -1,3 +1,9 @@
-# flowSOM-clustering integrated exploratory analysis of FACS data 
+# FlowSOM-Based Exploratory Analysis of Murine Spinal Cord FACS Data
 
-Exploratory analysis of FACS data from spinal cord single cells suspension from murine experiment in experimental autoimmune encephalomyelitis (EAE) model, an animal model of MS. 
+Exploratory analysis of flow cytometry (FACS) data from single-cell suspensions. This repository documents a reproducible R workflow for FlowSOM-based unsupervised clustering, immune cell population exploration, dimensionality reduction, and visualization to characterize spinal cord immunophenotypes.
+
+### Data preprocessing and compensation
+
+FCS files were initially inspected and preprocessed in FlowJo. Events were exported following the exclusion of cells with low viability-staining signal, according to the experimental gating strategy. Compensation settings were optimized in independent experiments, and the corresponding compensation matrix was embedded in the exported FCS files.
+
+The R workflow imports the FCS files and applies compensation and downstream transformations before FlowSOM-based clustering and exploratory analysis.
