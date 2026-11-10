@@ -1,6 +1,6 @@
 # FlowSOM-Based Exploratory Analysis of Murine FACS Data
 
-Exploratory analysis of flow cytometry (FACS) data from single-cell suspensions. This repository documents a reproducible R workflow for FlowSOM-based unsupervised clustering, immune cell population exploration, dimensionality reduction, and visualization to characterize spinal cord immunophenotypes.
+Exploratory analysis of flow cytometry (FACS) data from single-cell suspensions. This repository documents a reproducible R workflow for FlowSOM-based unsupervised clustering, immune cell population exploration, dimensionality reduction, and visualization to characterize tissue isolated immunophenotypes.
 
 ### Data preprocessing and compensation
 
