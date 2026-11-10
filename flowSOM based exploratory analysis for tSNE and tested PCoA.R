@@ -21,7 +21,7 @@
 #   9. Export tables, figures, the trained model, and session information.
 #
 # INPUT FILES
-#   data/fcs/                    FCS files (not committed to GitHub)
+#   C://your/path/to/data/fcs/                    
 #   metadata/sample_metadata.csv Sample-level experimental metadata
 #
 # METADATA FORMAT
