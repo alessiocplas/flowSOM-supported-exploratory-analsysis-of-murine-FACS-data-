@@ -103,8 +103,6 @@ library(viridis)
 # 2. CONFIGURATION
 # =============================================================================
 
-# Use paths relative to the GitHub repository root.
-
 data_dir <- file.path("data", "fcs")
 metadata_file <- file.path("metadata", "sample_metadata.csv")
 results_dir <- "results"
@@ -132,18 +130,18 @@ random_seed <- 2026L
 set.seed(random_seed)
 
 # FlowSOM parameters.
-som_xdim <- 5L
-som_ydim <- 5L
-n_metaclusters <- 8L
+som_xdim <- 5
+som_ydim <- 5
+n_metaclusters <- 8
 
 # Event aggregation target.
 # This specifies the overall target passed to AggregateFlowFrames().
 # It does not guarantee equal numbers of events per sample.
-events_target_per_file <- 2800L
+events_target_per_file <- 2800
 
 # Maximum number of events sampled per sample for t-SNE.
 # Adjust according to available computational resources.
-cells_per_sample <- 10000L
+cells_per_sample <- 10000
 
 # t-SNE parameters.
 tsne_perplexity <- 30
@@ -165,7 +163,7 @@ marker_indices <- 7:23
 group_variable <- "Group"
 
 # Number of permutations for PERMANOVA and dispersion testing.
-n_permutations <- 999L
+n_permutations <- 999
 
 
 # =============================================================================
@@ -228,7 +226,7 @@ if (anyNA(metadata[[group_variable]]) ||
   stop("The experimental group variable contains missing values.")
 }
 
-# Additional metadata columns such as MouseID, Status, Timepoint, or Batch
+# Additional metadata columns 
 # can be included in the CSV and used in downstream analyses.
 
 
