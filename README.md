@@ -33,21 +33,18 @@ The main objective is to provide an exploratory and reproducible computational f
 Dependencies
 
 - R (version 4.5.2)
-
 - flowCore (version 2.22.1)
-
 - FlowSOM (version 2.18.0)
-
 - ggplot2 (version 4.0.3)
-
 - pheatmap (version 1.0.13)
-
 - Rtsne (version 0.17)
-
 - dplyr (version 1.2.1)
-
 - ggpubr (version 1.0.0)
-
 - patchwork (version 1.3.2)
+- vegan (version 2.7.5)
+- viridis (version 0.6.5)
+- ape (version 5.8.1)
+- tibble (version 3.3.1)
+- tidyr (version 1.3.2)
 
 The scripts and associated outputs are intended to facilitate reproducibility, transparent data exploration, and further development of computational approaches for high-dimensional flow cytometry analysis.
