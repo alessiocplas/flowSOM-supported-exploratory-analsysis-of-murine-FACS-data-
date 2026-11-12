@@ -12,19 +12,19 @@ The R workflow imports the FCS files and applies compensation and downstream tra
 
 The pipeline includes:
 
-FACS data preprocessing: Import and aggregation of FCS files, using compensation matrices embedded in the original files.
+- **FACS data preprocessing**: Import and aggregation of FCS files, using compensation matrices embedded in the original files.
 
-Compensation and transformation: Application of compensation and logicle transformation to prepare fluorescence intensity data for downstream analysis.
+- **Compensation and transformation**: Application of compensation and logicle transformation to prepare fluorescence intensity data for downstream analysis.
 
-Quality control: Cells were previously assessed in FlowJo, and cells with low Live staining were exported for downstream computational analysis. The compensation matrix was optimized in independent experiments before acquisition and is included in the FCS files.
+- **Quality control**: Cells were previously assessed in FlowJo, and cells with low Live staining were exported for downstream computational analysis. The compensation matrix was optimized in independent experiments before acquisition and is included in the FCS files.
 
-Unsupervised clustering: Application of FlowSOM self-organizing maps (SOMs) to identify distinct immune cell populations based on marker expression profiles.
+- **Unsupervised clustering**: Application of FlowSOM self-organizing maps (SOMs) to identify distinct immune cell populations based on marker expression profiles.
 
-Cluster characterization: Visualization of marker expression patterns and cluster-level phenotypic profiles using heatmaps.
+- Cluster characterization: Visualization of marker expression patterns and cluster-level phenotypic profiles using heatmaps.
 
-Dimensionality reduction: t-distributed stochastic neighbor embedding (t-SNE) for exploratory visualization of cellular heterogeneity and population structure.
+- **Dimensionality reduction**: t-distributed stochastic neighbor embedding (t-SNE) for exploratory visualization of cellular heterogeneity and population structure.
 
-Population-level analysis: Assessment of cluster abundance and distribution across experimental samples, complemented by multivariate analyses, including principal coordinates analysis (PCoA), PERMANOVA, and tests for multivariate dispersion.
+- **Population-level analysis**: Assessment of cluster abundance and distribution across experimental samples, complemented by multivariate analyses, including principal coordinates analysis (PCoA), PERMANOVA, and tests for multivariate dispersion.
 
 **Objectives**
 
