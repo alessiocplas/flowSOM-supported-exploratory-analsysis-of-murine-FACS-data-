@@ -26,11 +26,7 @@ The pipeline includes:
 
 - **Population-level analysis**: Assessment of cluster abundance and distribution across experimental samples, complemented by multivariate analyses, including principal coordinates analysis (PCoA), PERMANOVA, and tests for multivariate dispersion.
 
-**Objectives**
-
-The main objective is to provide an exploratory and reproducible computational framework for investigating immune cell heterogeneity in the central nervous system during EAE. By combining unsupervised clustering with dimensionality reduction and statistical analysis, this workflow facilitates the identification and characterization of immune cell populations potentially involved in neuroinflammatory processes.
-
-Dependencies
+**Dependencies**
 
 - R (version 4.5.2)
 - flowCore (version 2.22.1)
