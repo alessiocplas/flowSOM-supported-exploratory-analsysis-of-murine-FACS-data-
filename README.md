@@ -20,7 +20,7 @@ The pipeline includes:
 
 - **Unsupervised clustering**: Application of FlowSOM self-organizing maps (SOMs) to identify distinct immune cell populations based on marker expression profiles.
 
-- Cluster characterization: Visualization of marker expression patterns and cluster-level phenotypic profiles using heatmaps.
+- **Cluster characterization**: Visualization of marker expression patterns and cluster-level phenotypic profiles using heatmaps.
 
 - **Dimensionality reduction**: t-distributed stochastic neighbor embedding (t-SNE) for exploratory visualization of cellular heterogeneity and population structure.
 
